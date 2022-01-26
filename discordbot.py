@@ -8,7 +8,7 @@ client = discord.Client()
 #當機器人完成啟動時
 async def on_ready():
     print('目前登入身份：',client.user)
-    game = discord.Game('努力學習python,js中')
+    game = discord.Game('Minecraft')
     #discord.Status.<狀態>，可以是online,offline,idle,dnd,invisible
     await client.change_presence(status=discord.Status.idle, activity=game)
     
@@ -38,4 +38,4 @@ async def on_message(message):
             #discord.Status.<狀態>，可以是online,offline,idle,dnd,invisible
             await client.change_presence(status=discord.Status.idle, activity=game)
 
-client.run('ODc5OTY2MjIyMTIzNDEzNTQ0.YSXaaA.gT6XauMQP1oyLyDUVJHqdSMpNBg') #TOKEN在剛剛Discord Developer那邊「BOT」頁面裡面            await message.reply(rem
+client.run('OTM1Mzg1MDcyODY4MTMwODI2.Ye93Ow.2ZPFXHwNCyJ2KJcqgIAJLSgsMmo') #TOKEN在剛剛Discord Developer那邊「BOT」頁面裡面            await message.reply(rem
